@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+
+</head>
+<body>
+
+    <!-- https://www.w3schools.com/w3css/tryw3css_templates_hotel.htm#rooms -->
+    <div id="main">
+
+        <div id="header">
+           <a class = "active" href="#"><i class="big-icon ti-home"></i>Logo</a>
+           <a href="#rooms">Rooms</a>
+           <a href="#about">About</a>
+           <a href="#contact">Contact</a>
+           <a class = "float-right" href="#book-now">Book Now</a>
+        </div>
+
+        <div id="logo">
+            <div id="search-form">
+
+                <div class="header-form row">
+                    <p class="hotel-name"> <i class="big-icon ti-home"></i> Hotel Name</p>
+                </div>
+
+                <form class="content-form">
+                    <div class="row">
+                        <div class="col-half">
+                            <div><label for="check-in"><i class="icon ti-calendar"></i>Check In </label></div>
+                            <div><input id = "check-in" type="date" required></div>
+                        </div>
+                        
+                        <div class="col-half">
+                           <div> <label for="check-out"><i class="icon ti-calendar"></i>Check Out </label></div>
+                            <div><input id = "check-out" type="date" required></div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+    
+                        <div class="col-half">
+                            <div><label for="adults"><i class="icon ti-user"></i>Adults</label></div>
+                            <div><input id = "adults" type="number" min = 1 required></div>
+                        </div>
+                
+                        <div class="col-half">
+                           <div> <label for="kids"><i class="icon ti-user"></i>Kids</label></div>
+                           <div> <input id = "kids" type="number" min = 1 required></div>
+                        </div>
+                
+                    </div>
+    
+                    <div class="row">
+                        <button class="search-avail"><i class="big-icon ti-search"></i>Search Availability</button>
+                    </div>
+                </form>
+
+    
+
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div id="rooms">
+                <h3 class = "h3-title">Rooms</h3>
+                <div class="about">
+                    <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+                </div>
+
+                <div>
+                    <form>
+                           <div class="s-content-form">
+                            <div class="col">
+                                <div><label for="check-in"><i class="icon ti-calendar"></i>Check In </label></div>
+                                <div><input id = "check-in" type="date" required></div>
+                            </div>
+                      
+                            <div class="col">
+                                <div> <label for="check-out"><i class="icon ti-calendar"></i>Check Out </label></div>
+                                <div><input id = "check-out" type="date" required></div>
+                            </div>
+    
+                            <div class="col">
+                                <div><label for="adults"><i class="icon ti-user"></i>Adults</label></div>
+                                <div><input id = "adults" type="number" min = 1 required></div>
+                            </div>
+            
+                            <div class="col">
+                                <div> <label for="kids"><i class="icon ti-user"></i>Kids</label></div>
+                                <div> <input id = "kids" type="number" min = 1 required></div>
+                            </div>
+
+                            <div class="col">
+                                <button class="search-avail"><i class="big-icon ti-search"></i>Search Availability</button>
+                            </div>
+                           </div>
+                    </form>
+                </div>
+            </div>
+    
+            <div id="about">
+    
+            </div>
+    
+            <div id="contact">
+     
+            </div>
+        </div>
+
+        <div id="footer">
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

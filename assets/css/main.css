@@ -1,0 +1,163 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    scroll-behavior: smooth;
+}
+
+/*
+1. Vị trí
+2. Kích thước (widht, height)
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, tròn, vuông)
+
+Từ ngoài vào trong
+Từ trên xuống dưới
+Từ tổng quan đến chi tiết
+
+*/
+/* class chung */
+.row {
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px;
+}
+
+.col {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.col-half {
+    width: 50%;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.big-icon {
+    margin-right: 12px;
+}
+
+.h3-title {
+    font-size: 24px;
+    font-weight: 100;
+    padding:12px 12px;
+}
+
+/* header begin*/
+#header {
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+#header a {
+    float: left;
+    font-size: 17px;
+    color: #000;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#header a:hover {
+    background-color: rgba(204, 204, 204, 0.6);
+}
+
+#header a.active {
+    background-color: #F44336;
+    color: #fff;
+}
+
+#header a.float-right {
+    position: absolute;
+    right: 0;
+}
+
+
+/* header end */
+
+
+/* logo begin */
+
+#logo {
+    background: url(../img/hotel.jpg);
+    background-color: #cccccc;
+    border-left: 8px solid #fff;
+    border-right: 8px solid #fff;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div#search-form {
+    position: absolute;
+    width: 710px;
+    top: 20%;
+    padding: 16px;
+}
+
+.header-form {
+    background-color: #F44336;
+    color: #fff;
+    padding: 16px;
+}
+
+.content-form {
+    background-color: #fff;
+}
+
+#logo label {
+    font-size: 16px;
+    font-weight: lighter;
+}
+#logo input {
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 2px solid #ccc;
+}
+
+#logo button {
+    padding: 12px;
+    border: none;
+    background-color: #616161;
+    color: #fff;
+    font-size: 16px;
+}
+
+#logo button:hover {
+    background-color: #ccc;
+    color: #000;   
+}
+
+/* logo end */
+
+/* rooms start */
+
+#rooms .about p {
+    padding-left: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.s-content-form {
+    
+}
+
+/* rooms end */
